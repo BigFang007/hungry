@@ -1,0 +1,67 @@
+/* 初始化代码 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    /* 防止图片是连接时被加上边框 */
+    border: 0;
+    vertical-align: middle;
+}
+
+buttom {
+    cursor: pointer;
+}
+
+a {
+    color: rgb(90, 89, 89);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(109, 164, 226);
+ }
+
+button,
+input {
+    /* 字体待定 */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, tahoma, artical;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

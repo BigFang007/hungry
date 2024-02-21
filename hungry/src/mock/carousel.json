@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "./carouselImage/1.jpg"
+    },
+    {
+        "id": "2",
+        "imgUrl": "./carouselImage/2.jpg"
+    },
+    {
+        "id": "3",
+        "imgUrl": "./carouselImage/3.jpg"
+    }
+]
